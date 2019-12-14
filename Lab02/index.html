@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .btn {
+        margin: 0 20px;
+        padding: 15px 34px;
+        overflow: hidden;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: white;
+        letter-spacing: 1px;    
+        text-transform: uppercase;
+        font-weight: 600;
+        border-width: 0;    
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        outline: none;
+        cursor: pointer; 
+        width: 40%;
+    }
+.btn1 {
+	background: linear-gradient(90deg, #c600b2, #7619fd);
+}
+.btn2 {
+	background: linear-gradient(90deg, #a3ffb0, #2bd9e8);
+    color: black;
+}
+.btn:before, 
+.btn:after {    
+    content: "";
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+    height: 100%;
+    left: -110%;
+    top: 0;
+	opacity: 0.1;
+	background: black;    
+    transform: skewX(25deg);    
+	transition: .5s ease;
+}
+.btn:hover:before {
+    left: -10%;
+    transition: .3s ease;
+}
+.btn:hover:after {
+    left: -20%;
+}
+    </style>
+</head>
+<body align="center">
+<hr width="98%" noshade="true">
+<a href = Tables.html><button class="btn btn2">ТАБЛИЦІ</button></a>
+<hr width="98%" noshade="true">
+<a href="Lists.html"><button class="btn btn1">СПИСКИ</button></a>
+<hr width="98%" noshade="true">
+</body>
+</html>
