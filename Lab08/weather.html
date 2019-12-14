@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="day"><span>Mon &mdash; <br> 21 Oct</span></div>
+        <div class="year"><span>2019</span></div>
+        <div class="time"><span>12:26</span><span id="part-day">pm</span></div>
+        <div class="week">
+            <svg>
+                <line x1="265" y1="5" x2="295" y2="35" stroke="black" stroke-width="3" />
+                <line x1="265" y1="35" x2="295" y2="5" stroke="black" stroke-width="3" />
+            </svg>
+            <div id="week">
+                <div class="wd"><span class="first">Mon</span><span class="second"><br>17&deg;</span></div>
+                <div class="wd"><span class="first">Tue</span><span class="second"><br>19&deg;</span></div>
+                <div class="wd"><span class="first">Wed</span><span class="second"><br>16&deg;</span></div>
+                <div class="wd"><span class="first">Thu</span><span class="second"><br>18&deg;</span></div>
+                <div class="wd"><span class="first">Fri</span><span class="second"><br>21&deg;</span></div>
+            </div>
+        </div>
+        <div class="info">
+            <span id="city">Zhytomyr</span>
+            <svg>
+                <line x1="265" y1="5" x2="295" y2="35" stroke="white" stroke-width="3" />
+                <line x1="265" y1="35" x2="295" y2="5" stroke="white" stroke-width="3" />
+            </svg>
+            <img class="cloud" src="cloud.png" alt="cloud"/>
+            <span id="temp">17&deg;</span>
+            <span id="date">21 october</span>
+        </div>
+        <div class="circle"></div>
+        <div class="nav">
+            <img src="arrow.png" alt="arrow"/>
+            <img class="mirror-img" src="arrow.png" alt="arrow"/>
+        </div>
+    </div>
+</body>
+</html>
