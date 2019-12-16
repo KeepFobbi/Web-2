@@ -1,0 +1,75 @@
+p{
+    color: green;
+    text-align: center;
+}
+
+p:nth-child(2n+1){
+    color: red;
+}
+
+#second{
+    color: deeppink;
+}
+
+a{
+    color: red;
+}
+
+ul a{
+    color: pink;
+}
+
+ul>li>a{
+    color: green;
+}
+
+ul>li>ul li{
+    list-style-type: none;
+}
+
+.last_list li{
+    list-style-type: square;
+}
+
+.last_list a{
+    text-decoration: none;
+}
+
+code{
+    color: red;
+}
+
+h1+p{
+    font-size: 20px;
+}
+
+p>code{
+    color: red;
+}
+
+p~code{
+    color: purple;
+}
+
+.menu>li{
+    list-style-type: none;
+    background: #088a28;
+    width: 180px;
+    line-height: 30px;
+    display: block;
+    margin-top: 3px;
+    padding-left: 4px;
+    color: white;
+}
+
+.menu>li>ul>li{
+    background: #ff8001;
+    color: black;
+    line-height: 35px;
+    padding: 0 0 0 10px;
+}
+
+.menu>li>ul{
+    padding: 0px 5px 5px 2px;
+    margin-left: 0px;
+}

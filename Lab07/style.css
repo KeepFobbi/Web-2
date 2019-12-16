@@ -1,0 +1,246 @@
+.block1{
+    width: 1280px;
+    height: 946px;
+    background: url("0.png") no-repeat;
+}
+
+.block2{
+    width: 1280px;
+    height: 946px;
+    background: url("6.png") no-repeat 240px 170px;
+}
+
+.block3{
+    width: 1280px;
+    height: 946px;
+    background: url("3.png") no-repeat 775px 360px;
+}
+
+.block4{
+    width: 1280px;
+    height: 946px;
+    background: url("2.png") no-repeat 1000px 350px;
+}
+
+.block5{
+    width: 1280px;
+    height: 946px;
+    background: url("5.png") no-repeat 280px 300px;
+}
+
+.block6{
+    width: 1280px;
+    height: 946px;
+    background: url("4.png") no-repeat 900px 570px;
+}
+
+.block7{
+    width: 1280px;
+    height: 946px;
+    background: url("1.png") no-repeat 0 100%;
+}
+
+.block_all{
+    width: 1280px;
+    height: 946px;
+    background: url("1.png") no-repeat 0 100%, url("5.png") no-repeat 280px 300px, url("6.png") no-repeat 240px 170px,
+    url("4.png") no-repeat 900px 570px, url("3.png") no-repeat 775px 360px, url("2.png") no-repeat 1000px 350px,
+    url("0.png") no-repeat;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.icon1{
+    background-color: #da0404;
+    background-image: url("white_sprait.png");
+    background-position: 0 0;
+}
+
+.icon2{
+    background-color: #03aeda;
+    background-image: url("white_sprait.png");
+    background-position: 400px 0;
+}
+
+.icon3{
+    background-color: #fca61b;
+    background-image: url("white_sprait.png");
+    background-position: 300px 0;
+}
+
+.icon4{
+    background-color: #0450da;
+    background-image: url("white_sprait.png");
+    background-position: 200px 0;
+}
+
+.icon5{
+    background-color: #f0812f;
+    background-image: url("white_sprait.png");
+    background-position: 100px 0;
+}
+
+.icon6{
+    background-color: #0450da;
+    background-image: url("white_sprait.png");
+    background-position: 0 100px;
+}
+
+.icon7{
+    background-color: #fcd41c;
+    background-image: url("white_sprait.png");
+    background-position: 400px 100px;
+}
+
+.icon8{
+    background-color: #da0404;
+    background-image: url("white_sprait.png");
+    background-position: 300px 100px;
+}
+
+.icon9{
+    background-color: #03aeda;
+    background-image: url("white_sprait.png");
+    background-position: 200px 100px;
+}
+
+.icon10{
+    background-color: #ff8931;
+    background-image: url("white_sprait.png");
+    background-position: 100px 100px;
+}
+
+fieldset{
+    width: 400px;
+    background: gray;
+}
+
+label{
+    width: 200px;
+    text-align: left;
+}
+
+input[type=email],input[type=text]{
+    background-color: sandybrown;
+    opacity: 0.7;
+}
+
+input[type=password]{
+    background-color: palevioletred;
+    opacity: 0.7;
+}
+
+select{
+    background-color: dodgerblue;
+    height: 30px;
+    width: 150px;
+    opacity: 0.7;
+}
+
+textarea{
+    background-color: greenyellow;
+    opacity: 0.7;
+}
+
+input[type=button]{
+    align-items: center;
+    opacity: 0.7;
+}
+
+td>input[type=button]{
+    background-color: greenyellow;
+}
+
+td>input[type=button]+input[type=button]{
+    background-color: palevioletred;
+}
+
+ul.nav {
+    margin: 30px;
+    padding: 4px;
+    text-align: center;
+}
+
+ul.nav li {
+    display: inline;
+    width:50%;
+    margin: 30px;
+    border: 2px solid  #B0C7D8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:  #877160;
+}
+
+li:hover{
+    background-color: #607788;
+}
+
+li:hover > a{
+    color: white;
+}
+
+.card{
+    width: 250px;
+    height: 280px;
+}
+
+.round{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+.text{
+    display: block;
+    padding: -25px;
+    font-style: italic;
+    text-align: center;
+}
+
+.second{
+    left:0px;
+    top: 100px;
+}
+
+.word_of_second{
+    position: absolute;
+    display: inline-block;
+    font-size: 18px;
+    left: 550px;
+    bottom: 300px;
+    float: right;
+}
+
+.right_second{
+    text-align: right;
+}
+
+.first{
+    position: relative;
+}
+
+.word_of_first{
+    font-size: 18px;
+    position: relative;
+    top: -250px;
+    right: 1000px;
+    display: inline-block;
+    float: right;
+}
+
+.right_align{
+    text-align: left;
+}
+
+h1{
+    margin-top: -60px;
+    margin-left: 100px;
+}

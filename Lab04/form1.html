@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <p><label>Логін: </label><input type = "text"></p>
+    <p><label>Пароль: </label><input type = "password"></p>
+    <p><label>Повторіть пароль: </label><input type = "password"></p>
+    <p><label>
+        Стать:
+        <input type = "radio" name="sex"> чоловік
+        <input type = "radio" name = "sex"> жінка
+    </label></p>
+    <p><label>Вкажіть країну: </label>
+    <select>
+        <option>Україна</option>
+        <option>Нарнія</option>
+        <option>США</option>
+    </select>
+    </p>
+    <p>
+        <label>Про себе: </label>
+        <textarea></textarea>
+    </p>
+    <input type = "submit" value="Відправити">
+</form>
+<hr noshade="true" width="98%">
+<form>
+    <p><label>Логін: </label><input type = "text"></p>
+    <p><label>Пароль: </label><input type = "password"></p>
+    <p><label>Повторіть пароль: </label><input type = "password"></p>
+    <p><label>
+        Стать:
+        <input type = "radio" name = "sex"> чоловік
+        <input type = "radio" name = "sex"> жінка
+    </label></p>
+    <p><label>Вкажіть місто: </label>
+        <select size="3">
+            <option>Житомир</option>
+            <option>Київ</option>
+            <option>Тернопіль</option>
+        </select>
+    </p>
+    <p>
+        <label>Хоббі: </label>
+        <label><input type="checkbox"> шашки</label>
+        <label><input type="checkbox"> шахи</label>
+        <label><input type="checkbox"> Raid</label>
+        <label><input type="checkbox"> музика</label>
+    </p>
+    <input type = "submit" value="Очистити">
+    <input type = "submit" value="Відправити">
+</form>
+<hr noshade="true" width="98%">
+<form>
+<fieldset oninput="pound.value =(kg.value/0.45359237).toFixed(0), cent.value = (kg.value/100).toFixed(1)">
+    <label>Введіть вашу вагу в кг:<input type = "number" name = "kg"></label><br>
+    <label>Ваша вага в фунтах:<output name = "pound"></output></label><br>
+    <label>Ваша вага в центнерах:<output name = "cent"></output></label><br>
+</fieldset>
+</form>
+<form>
+<fieldset oninput="sum.value = parseInt(first.value)+parseInt(sec.value)">
+    <h2>Введи 2 числа та отримай суму</h2>
+    <label><input type = "number" name = "first">+</label>
+    <label><input type = "number" name = "sec">=</label>
+    <output name = "sum"></output>
+</fieldset>
+</form>
+<form>
+<fieldset oninput="sum.value = first.valueAsNumber">
+    <h2>Скільки ви бажаєте заробити?</h2>
+    <label>0<input type = "range" name = "first">100</label><br>
+    <output name = "sum"></output>
+</fieldset>
+</form>
+<form>
+    <fieldset oninput="salary.value = (parseInt(hour.value) * parseInt(amount.value) - ((parseInt(hour.value) * parseInt(amount.value))*tax.value/100).toFixed(2))"><legend>Розрахуй ЗП</legend>
+    <label>Кількість годин: <input type = "number" name = "hour"></label><br>
+    <label>Ставка, грн: <input type = "number" name = "amount"></label><br>
+    <label>Податок: <input type = "number" name = "tax"></label><br>
+    <label>Всього грн: <output name = "salary"/></label>
+    </fieldset>
+</form>
+</body>
+</html>

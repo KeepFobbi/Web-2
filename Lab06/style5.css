@@ -1,0 +1,37 @@
+main{
+    background: url("sky.jpg");
+    width: 450px;
+    height: 650px;
+    display: block;
+    padding-top: 5px;
+    color: blue;
+}
+
+.content{
+    width: 370px;
+    height: 390px;
+    margin: 10px;
+    padding: 5px;
+    border-top: 5px blue ridge;
+    border-bottom: 5px green ridge;
+    border-left: 5px red ridge;
+    border-right: 5px yellow ridge;
+}
+
+.info{
+    width: 300px;
+    font-size: 20px;
+}
+
+i{
+    color: white;
+}
+
+h1{
+    color: #ff0000;
+    line-height: 10px;
+}
+
+ol{
+    color: yellow;
+}
