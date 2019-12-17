@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-align: center;
+    align-content: stretch;
+}
+
+.container > * {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.header {
+    background: #00ffff;
+    width: 100%;
+}
+
+.footer {
+    background: #0000ff;
+    width: 100%;
+}
+
+.main {
+    text-align: left;
+    background: #90ee90;
+    flex: 1 60%;
+}
+
+.aside-1 {
+    background: #ff00ff;
+    flex: 1 20%;
+}
+
+.aside-2 {
+    background: #ffff00;
+    flex: 1 20%;
+}

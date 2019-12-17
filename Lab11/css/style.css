@@ -1,0 +1,205 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+/*header decoration*/
+
+.header{
+    justify-content: center;
+}
+
+.navigation{
+    width: 835px;
+    position: absolute;
+    font-size: 16.5px;
+    z-index: 1;
+}
+
+.carousel-caption, .card-info{
+    height: 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 180px;
+    z-index: 1;
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.carousel-item:before, .card-body:before{
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #333;
+    opacity: 0.5;
+}
+
+.city{
+    font-size: 70px;
+    color: #f9c221;
+}
+
+.small-city{
+    font-size: 50px;
+}
+
+.btn{
+    margin: 70px auto 10px;
+    background-color: #e73a2e;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px #232323;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    width: 200px;
+}
+
+.btn:hover{
+    background-color: #f94333;
+}
+
+.bg-dark{
+    background: linear-gradient(#e73a2e, #f48484, #e7302e);
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 2px 3px #555;
+}
+
+.nav-item{
+    border-right: 1px solid #8c9093;
+    border-left: 1px solid #bdc1c4;
+    padding: 0 30px;
+}
+
+.nav-link{
+    color: #323232 !important;
+}
+
+.nav-link:hover{
+    color: #dbdfe2 !important;
+}
+
+.nav-item:last-child{
+    border-right: none;
+}
+
+.nav-item:first-child{
+    border-left: none;
+}
+
+
+/*main decoration*/
+
+.main{
+    margin-bottom: 100px;
+}
+
+/*card of city*/
+.cards{
+    position: relative;
+    top: -70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    margin-right: 30px;
+    border: none;
+    color: #fff;
+}
+
+.card:last-child{
+    margin-right: 0;
+}
+
+.card-info{
+    position: relative;
+    height: 500px;
+}
+
+.card-body{
+    z-index: 1;
+}
+
+.card-img-top{
+    position: absolute;
+}
+
+.btn-card{
+    background-color: #fff;
+    color: red;
+}
+
+/*form and welcome*/
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto 15%;
+}
+
+.form{
+    padding: 20px;
+}
+
+.h1-form{
+    margin-bottom: 40px;
+}
+
+label{
+    font-size: 18px;
+    vertical-align:  center;
+}
+
+.rd-label{
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.btn-form{
+    background-color: #d3d3d3;
+    color: #5d5d5d;
+    margin: 20px auto;
+}
+
+.btn-form:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+.form-control{
+    background-color: #d7dcdf;
+    opacity: .8;
+    border: none;
+    border-radius: 2px;
+}
+
+/*welcome*/
+
+.welcome{
+    margin-left: 100px;
+    display: grid;
+    grid-template-rows: 50%;
+}
+
+
+
+/*footer decoration*/
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #002142;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

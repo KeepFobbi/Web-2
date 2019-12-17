@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: white;
+    color: #03aeda;
+}
+
+.flex-container{
+    background-color: #03aeda;
+    border: 1px solid blue;
+    margin: 20px auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.d a, .e a, .f a, .g a, .i a{
+    border: 2px solid blue;
+}
+
+.a{
+    justify-content: space-between;
+}
+
+.b{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.c{
+    justify-content: center;
+}
+
+.d{
+    height: 130px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.e{
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.f{
+    height: 130px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.g{
+    height: 130px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.h{
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.h a{
+    width: 15%;
+    justify-content: space-around;
+}
+
+.i{
+    float: left;
+    height: 206px;
+    width: 500px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.i a{
+    width: 100%;
+    text-align: left;
+}
